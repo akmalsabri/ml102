@@ -1,0 +1,70 @@
+2.
+Final Training CE 2.533
+Final Validation CE 2.601
+Final Test CE 2.611
+
+3.
+Cross Entropy on the validation set fluctuates around a large value.
+Cross Entropy on the training set fluctuates around a large value.
+
+4.
+5.521
+
+5.
+momentum = 0.5;
+
+learning_rate = 0.001;
+Final Training CE 4.567
+Final Validation CE 4.432
+Final Test CE 4.439
+
+learning_rate = 0.1;
+Final Training CE 4.405
+Final Validation CE 4.394
+Final Test CE 4.402
+
+learning_rate = 10.0;
+Final Training CE 3.695
+Final Validation CE 3.409
+Final Test CE 3.424
+
+Model C
+
+6.
+momentum = 0.5;
+
+learning_rate = 0.001;
+Final Training CE 4.380
+Final Validation CE 4.382
+Final Test CE 4.388
+
+learning_rate = 0.1;
+Final Training CE 2.941
+Final Validation CE 2.932
+Final Test CE 2.931
+
+learning_rate = 10.0;
+Final Training CE 3.322
+Final Validation CE 3.282
+Final Test CE 3.289
+
+7.
+No A
+
+8.
+C
+
+9.
+No b
+
+10.
+can should
+
+11.
+Both words occur very rarely, so their embedding weights get updated very few times and remain close to their initialization.
+
+12.
+The model does not care about gender. It puts them close because if 'he' occurs in a 4-gram, it is very likely that substituting it by 'she' will also make a sensible 4-gram.
+
+13.
+Words that can be substituted for one another and still make up a sensible 4-gram.
